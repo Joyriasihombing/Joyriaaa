@@ -42,13 +42,13 @@ export default function AboutSection() {
               student at Del Institute of Technology, Laguboti, North Sumatra — maintaining a GPA of 3.41/4.00.
             </p>
             <p className="text-[#5B5675] text-base leading-relaxed">
-              My academic journey has built a strong foundation in software engineering principles,
-              data structures, and algorithms. I actively apply these skills through real-world projects
-              in data analytics, machine learning, and web development.
+              Through my studies I&apos;ve built a foundation in software engineering, data structures,
+              and algorithms. I enjoy applying what I learn through hands-on projects — from building
+              websites and mobile apps to exploring data analysis and basic machine learning.
             </p>
             <p className="text-[#5B5675] text-base leading-relaxed">
-              I am seeking internship and entry-level opportunities in Data Analytics, AI Engineering,
-              and Software Development where I can contribute meaningfully and grow as a professional.
+              I&apos;m looking for internship opportunities where I can contribute, learn from experienced
+              teams, and grow as a developer and analyst.
             </p>
 
             {/* Facts */}
@@ -72,10 +72,10 @@ export default function AboutSection() {
           {/* Cards */}
           <motion.div {...a(0.2)} className="lg:col-span-2 space-y-3">
             {[
-              { icon: Target,       title: "Career Interest", text: "Data Analyst, AI Engineer, and Software Developer at tech-forward companies.", color: "text-[#7C3AED]", bg: "bg-[#EDE9FE]", border: "border-[#C4B5FD]" },
+              { icon: Target,       title: "Career Interest", text: "Data Analyst and Software Developer roles where I can keep learning and contribute to real projects.", color: "text-[#7C3AED]", bg: "bg-[#EDE9FE]", border: "border-[#C4B5FD]" },
               { icon: GraduationCap,title: "Education",       text: "D4 Applied Software Engineering · Del Institute of Technology · 2023–2027",   color: "text-[#BE185D]", bg: "bg-[#FFF0F3]", border: "border-[#FECDD3]" },
               { icon: Briefcase,    title: "Leadership",      text: "Head of Commission A at Student Representative Council (MPM) · 2026",          color: "text-[#0891B2]", bg: "bg-[#F0F9FF]", border: "border-[#BAE6FD]" },
-              { icon: Award,        title: "Achievements",    text: "8+ professional certifications from Dicoding, Microsoft, and Del Institute.",   color: "text-[#D97706]", bg: "bg-[#FFFBEB]", border: "border-[#FDE68A]" },
+              { icon: Award,        title: "Certifications",  text: "8+ certifications from Dicoding, Microsoft, and Del Institute — still learning every day.", color: "text-[#D97706]", bg: "bg-[#FFFBEB]", border: "border-[#FDE68A]" },
             ].map(card => (
               <div key={card.title}
                 className="flex items-start gap-4 p-4 bg-white/80 border border-[#E4DFFF] rounded-2xl hover:border-[#C4B5FD] hover:shadow-lg hover:shadow-violet-100/60 transition-all duration-200 group">

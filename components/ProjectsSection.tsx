@@ -35,7 +35,7 @@ const projects = [
   },
   {
     title: "Obesity Risk Prediction",
-    description: "A machine learning model predicting obesity risk for high school students based on lifestyle data, supporting early health detection.",
+    description: "Built a machine learning model as part of a research project to predict obesity risk for high school students based on lifestyle data. A learning experience in applying Python and data science basics.",
     tags: ["Python", "Pandas", "Scikit-learn", "ML"],
     category: "AI / Machine Learning",
     emoji: "🤖",
@@ -79,7 +79,7 @@ export default function ProjectsSection() {
             </a>
           </div>
           <p className="text-[#5B5675] mt-3 text-base max-w-xl">
-            Real projects built during my studies — spanning web development, mobile apps, and machine learning.
+            Projects I built during my studies — still learning, but proud of every one of them.
           </p>
         </motion.div>
 

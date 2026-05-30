@@ -14,11 +14,11 @@ const skillGroups = [
     skills: ["Python", "JavaScript", "Dart", "HTML5", "CSS3", "SQL"],
   },
   {
-    category: "Data & AI",
+    category: "Data Analysis",
     dot: "bg-[#BE185D]",
     chip: "bg-[#FFF0F3] text-[#9D174D] border-[#FECDD3]",
     card: "border-[#FECDD3] bg-[#FFF8FA]",
-    skills: ["Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Machine Learning", "Data Analysis", "Data Visualization"],
+    skills: ["Pandas", "NumPy", "Matplotlib", "Scikit-learn", "Data Visualization", "Jupyter Notebook"],
   },
   {
     category: "Frameworks & Tools",

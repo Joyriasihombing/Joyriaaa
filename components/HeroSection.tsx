@@ -70,8 +70,8 @@ export default function HeroSection() {
             <motion.div {...a(0.2)} className="flex flex-wrap gap-2 justify-center lg:justify-start mb-5">
               {[
                 { label: "Data Analyst",       bg: "bg-[#EDE9FE] text-[#6D28D9] border-[#C4B5FD]" },
-                { label: "AI Engineer",         bg: "bg-[#FFF0F3] text-[#BE185D] border-[#FECDD3]" },
-                { label: "Software Developer",  bg: "bg-[#F0FDF8] text-[#065F46] border-[#A7F3D0]" },
+                { label: "Software Developer",  bg: "bg-[#FFF0F3] text-[#BE185D] border-[#FECDD3]" },
+                { label: "Tech Enthusiast",     bg: "bg-[#F0FDF8] text-[#065F46] border-[#A7F3D0]" },
               ].map(r => (
                 <span key={r.label} className={`px-3 py-1 rounded-lg border text-xs font-bold tracking-wide ${r.bg}`}>{r.label}</span>
               ))}
@@ -85,9 +85,9 @@ export default function HeroSection() {
 
             {/* Summary */}
             <motion.p {...a(0.3)} className="text-[#5B5675] text-base leading-relaxed mb-10 max-w-lg mx-auto lg:mx-0">
-              6th semester student passionate about turning data into actionable insights.
-              Experienced in data analytics, machine learning, and software development.
-              Seeking opportunities to contribute to impactful technology projects.
+              6th semester student who enjoys working with data and building software.
+              I&apos;ve explored data analysis, machine learning basics, and web & mobile development
+              through coursework and personal projects. Always eager to learn and grow.
             </motion.p>
 
             {/* CTAs */}
